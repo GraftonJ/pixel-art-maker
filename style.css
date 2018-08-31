@@ -1,3 +1,49 @@
 td {
   border: 1px solid black;
+  height: 1em;
+  width: 1em;
+}
+
+.blue {
+  background-color: blue;
+}
+
+
+/* Color Pallete */
+.palette {
+  display: flex;
+  position: absolute;
+  bottom: 100px;
+}
+.palette.name {
+  text-align: center;
+}
+.red-swatch {
+  flex-grow: 1;
+  background: red;
+  height: 2em;
+  width: 2em;
+  margin: .5em;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.green-swatch {
+  flex-grow: 1;
+  background: green;
+  height: 2em;
+  width: 2em;
+  margin: .5em;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.blue-swatch {
+  flex-grow: 1;
+  background: blue;
+  height: 2em;
+  width: 2em;
+  margin: .5em;
+  border: 1px solid black;
+  border-radius: 25px;
 }
