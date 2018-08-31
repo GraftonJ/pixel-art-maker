@@ -18,6 +18,14 @@ td {
 .palette.name {
   text-align: center;
 }
+
+.current-color {
+  height: 2em;
+  width: 2em;
+  margin: .5em;
+  border: 1px solid black;
+  border-radius: 25px;
+}
 .red-swatch {
   flex-grow: 1;
   background: red;

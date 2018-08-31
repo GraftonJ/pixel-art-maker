@@ -3,11 +3,15 @@ let body = document.getElementsByTagName('body')[0]
 
 // make a table for the grid
 let grid = document.createElement('table')
+
+//find Palette
+let palette = document.getElementsByTagName('div')[0]
+
+//Find currentColor
+let currentColor = document.getElementsByTagName('div')[4]
+
 //add table to document within body
 body.appendChild(grid)
-
-//Create event.target variable
-const test = 'event.target'
 
 // //Create a row element
 function createRow() {
@@ -59,7 +63,13 @@ var changeTargetBlue = function () {
 }
 
 //Add addEventListener to the grid to detect event.target and change colors
-
 grid.addEventListener('click', changeTargetBlue);
 
-console.log('Test');
+//Function to change class of currentColor
+var test = function () {
+  currentColor.classList.add('blue')
+  console.log('test function')
+}
+
+//Event listener to change current color to the same color as the palette swatch that was clicked
+palette.addEventListener('click', test)
