@@ -8,7 +8,7 @@ let grid = document.createElement('table')
 let palette = document.getElementsByTagName('div')[0]
 
 //Find currentColor
-let currentColor = document.getElementsByTagName('div')[4]
+let currentColor = document.getElementsByTagName('div')[13]
 
 //set
 let redSwatch = document.getElementsByTagName('div')[1]

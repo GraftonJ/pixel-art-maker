@@ -1,3 +1,13 @@
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 1em;
+}
 td {
   border: 1px solid black;
   height: 1em;
@@ -8,12 +18,12 @@ td {
   background-color: blue;
 }
 
-
 /* Color Pallete */
 .palette {
+  padding: 2px;
   display: flex;
-  position: absolute;
-  bottom: 100px;
+  flex-flow: row wrap;
+  justify-content: flex-start;
   border: 1px solid black;
 }
 .palette.name {
@@ -56,3 +66,74 @@ td {
   border: 1px solid black;
   border-radius: 25px;
 }
+
+.orange-swatch {
+  flex-grow: 1;
+  background: orange;
+  height: 2em;
+  width: 2em;
+  margin: .5em;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.yellow-swatch {
+  flex-grow: 1;
+  background: yellow;
+  height: 2em;
+  width: 2em;
+  margin: .5em;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.purple-swatch {
+  flex-grow: 1;
+  background: purple;
+  height: 2em;
+  width: 2em;
+  margin: .5em;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.brown-swatch {
+  flex-grow: 1;
+  background: brown;
+  height: 2em;
+  width: 2em;
+  margin: .5em;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.gray-swatch {
+  flex-grow: 1;
+  background: gray;
+  height: 2em;
+  width: 2em;
+  margin: .5em;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.black-swatch {
+  flex-grow: 1;
+  background: black;
+  height: 2em;
+  width: 2em;
+  margin: .5em;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.white-swatch {
+  flex-grow: 1;
+  background: white;
+  height: 2em;
+  width: 2em;
+  margin: .5em;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+/* red, orange, yellow, green, blue, purple, brown, gray, black, white */
